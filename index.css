@@ -174,3 +174,44 @@ button {
   padding-right: 30px;
 }
 
+/*************** section3 **************/
+.section3 {
+  display: flex;
+  padding: 100px;
+  justify-content: center;
+}
+
+.big-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding: 50px 100px;
+  border-radius: 10px;
+}
+
+.call-to-action {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.small-container .text {
+  font-size: 18px;
+  padding-top: 2px;
+}
+
+.big-container button {
+  border: 2px solid #f9faf8;
+  width: 126px;
+  height: 33px;
+  align-self: flex-end;
+  text-align: center;
+  padding: 0px;
+}
+/*************** section3 **************/
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  color: #f9faf8;
+}
