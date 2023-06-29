@@ -108,4 +108,47 @@ button {
 }
 
 /********** section 1 style ***********/
+.section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+  padding: 50px 150px 80px;
+}
 
+.item-container,
+.item {
+  display: flex;
+}
+
+.item-container {
+  width: 100%;
+}
+
+.item {
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.information {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.item img {
+  width: 90%;
+  height: 250px;
+  border: 2px solid rgb(32, 122, 178);
+  border-radius: 5%;
+}
+
+.item p {
+  font-size: 18px;
+  color: #50627f;
+}
+
+/*************** section2 **************/ 
