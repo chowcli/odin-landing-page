@@ -114,7 +114,7 @@ button {
   justify-content: center;
   text-align: center;
   gap: 50px;
-  padding: 50px 150px 80px;
+  padding: 50px 150px 100px;
 }
 
 .item-container,
@@ -151,4 +151,26 @@ button {
   color: #50627f;
 }
 
-/*************** section2 **************/ 
+/*************** section2 **************/
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 120px 200px 100px;
+  background-color: #e5e7eb;
+}
+
+.quote {
+  text-align: justify;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  padding: 30px;
+}
+
+.author {
+  font-size: 24px;
+  font-weight: 600;
+  padding-right: 30px;
+}
+
